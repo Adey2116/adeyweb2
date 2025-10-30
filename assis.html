@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Div1</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+    .Both {
+      display: flex;
+      height: 100%;
+      width: 100%;
+      font-size: 100px;
+      text-align: center;
+    }
+    .Left {
+      background-color: green;
+      border: 1px solid black;
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .Right {
+      background-color: red;
+      border: 1px solid black;
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="Both">
+    <div class="Left">Left</div>
+    <div class="Right">Right</div>
+  </div>
+</body>
+</html>
